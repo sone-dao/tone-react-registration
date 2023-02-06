@@ -8,9 +8,7 @@
     "dev": "node ./dev.js"
   },
   "dependencies": {
-    "@sone-dao/tone-react-containers": "^1.0.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "@sone-dao/tone-react-containers": "^1.0.0"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^24.0.1",
@@ -30,6 +28,10 @@
     "shelljs": "^0.8.5",
     "tslib": "^2.5.0",
     "typescript": "^4.9.5"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "files": [
     "dist"
