@@ -1,13 +1,14 @@
 {
-  "name": "@sone-dao/sone-template-react",
-  "version": "1.0.0",
-  "repository": "https://github.com/sone-dao/sone-template-react.git",
+  "name": "@sone-dao/tone-react-registration",
+  "version": "0.1.0",
+  "repository": "https://github.com/sone-dao/tone-react-registration.git",
   "license": "MIT",
   "scripts": {
     "build": "rollup -c",
     "dev": "node ./dev.js"
   },
   "dependencies": {
+    "@sone-dao/tone-react-containers": "^1.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },

@@ -1,0 +1,27 @@
+.component {
+}
+
+.boxInput {
+  all: unset;
+  background-color: #f3f3f3;
+  box-sizing: border-box;
+  font-family: var(--font-copy-main-family);
+  font-size: 1.75em;
+  font-weight: normal;
+  padding: 1em;
+  width: 100%;
+}
+
+.boxButton {
+  align-items: center;
+  background-color: #6f53bd;
+  border: 0;
+  border-radius: 4px;
+  color: white;
+  display: flex;
+  font-size: 1em;
+  font-weight: bold;
+  justify-content: center;
+  padding: 1em;
+  width: 100%;
+}
