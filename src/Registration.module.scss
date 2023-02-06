@@ -1,4 +1,10 @@
-.component {
+.page {
+  align-items: center;
+  background: #6f53bd;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
 }
 
 .boxInput {
